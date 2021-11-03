@@ -69,6 +69,7 @@
 
     <modules>
         <module>microservicecloud-01-api</module>
+        <module>microservicecloud-02-provider-dept-8001</module>
     </modules>
 
 </project>
