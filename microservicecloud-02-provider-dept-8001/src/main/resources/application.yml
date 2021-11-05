@@ -26,3 +26,5 @@ eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
       defaultZone: http://localhost:7001/eureka
+  instance:
+          instance-id: microservicecloud-dept8001   #主机名称:服务名称修改
