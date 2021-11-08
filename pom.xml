@@ -99,6 +99,7 @@
         <module>microservicecloud-07-provider-dept-8002</module>
         <module>microservicecloud-08-provider-dept-8003</module>
         <module>microservicecloud-09-consumer-dept-feign</module>
+        <module>microservicecloud-10-provider-dept-hystrix-8001</module>
     </modules>
 
 </project>
