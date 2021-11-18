@@ -101,6 +101,7 @@
         <module>microservicecloud-09-consumer-dept-feign</module>
         <module>microservicecloud-10-provider-dept-hystrix-8001</module>
         <module>microservicecloud-11-consumer-hystrix-dashboard-9001</module>
+        <module>microservicecloud-12-zuul-gateway-9527</module>
     </modules>
 
 </project>
