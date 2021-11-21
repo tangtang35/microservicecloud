@@ -13,6 +13,19 @@ eureka:
     instance-id: gateway-9527.com
     prefer-ip-address: true
 
+zuul:
+  # 设置统一公共前缀
+  prefix: /tangtang
+  # 原真实服务名忽略，添加后不能再使用该服务名访问
+  #ignored-services: microservicecloud-dept
+  # 屏蔽所有的服务名
+  ignored-services: "*"
+  routes:
+    # 真实服务器名称
+    mydept.serviceId: microservicecloud-dept
+    # 代理服务器名称，添加有可以使用代理服务名访问
+    mydept.path: /mydept/**
+
 
 info:
   app.name: atguigu-microcloud
